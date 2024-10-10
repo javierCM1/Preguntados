@@ -1,6 +1,6 @@
 <?php
 
-class LonginController
+class LoginController
 {
 
     private $model;
@@ -12,8 +12,8 @@ class LonginController
         $this->presenter = $presenter;
     }
 
-    public function showLogin()
+    public function index()
     {
-        $this->presenter->show('login');
+        $this->presenter->show('login', []);
     }
 }
