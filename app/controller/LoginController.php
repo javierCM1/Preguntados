@@ -1,6 +1,8 @@
 <?php
-class PresentancionesController
+
+class LonginController
 {
+
     private $model;
     private $presenter;
 
@@ -10,10 +12,8 @@ class PresentancionesController
         $this->presenter = $presenter;
     }
 
-    public function list()
+    public function showLogin()
     {
-        $data["presentaciones"] = $this->model->getPresentaciones();
-        $this->presenter->show('presentaciones',$data);
+        $this->presenter->show('login');
     }
-
 }

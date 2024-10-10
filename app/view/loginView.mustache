@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Trivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <!-- Lado Izquierdo -->
+        <div class="col-md-6 d-none d-md-flex bg-blue">
+            <div class="left-content">
+                <h1 class="welcome-text">¡Bienvenido de nuevo a Trivia!</h1>
+                <p class="subtitle">Inicia sesión para poner a prueba tus conocimientos y desafiar a tus amigos.</p>
+                <button class="btn btn-dark btn-lg demo-btn">Ver cómo jugar</button>
+            </div>
+        </div>
+
+        <!-- Lado Derecho (Formulario de Inicio de Sesión) -->
+        <div class="col-md-6 bg-dark">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-xl-7 mx-auto">
+                            <h3 class="display-4 text-light">Iniciar Sesión</h3>
+                            <form>
+                                <div class="form-group mb-3">
+                                    <input type="email" placeholder="Correo Electrónico" class="form-control rounded-pill form-control-lg">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="password" placeholder="Contraseña" class="form-control rounded-pill form-control-lg">
+                                </div>
+                                <div class="form-group d-flex justify-content-between align-items-center">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label text-light" for="customCheck1">Recuérdame</label>
+                                    </div>
+                                    <a href="#" class="text-light">¿Olvidaste tu contraseña?</a>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block rounded-pill">Iniciar Sesión</button>
+                            </form>
+
+                            <div class="text-center mt-3">
+                                <p class="text-light">O inicia sesión con tus redes sociales:</p>
+                                <a href="#" class="btn btn-outline-light mx-1"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn btn-outline-light mx-1"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-outline-light mx-1"><i class="fab fa-google"></i></a>
+                                <a href="#" class="btn btn-outline-light mx-1"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+
+                            <div class="text-center mt-3">
+                                <p class="text-light">¿No tienes una cuenta? <a href="#" class="text-primary">Regístrate</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Iconos de FontAwesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
